@@ -6,22 +6,73 @@
   <link href="./output.css" rel="stylesheet">
 </head>
 <body class="bg-slate-800">
-    <nav>
-        <img src="images/profile_img.jpg" alt="">
+    <!-- nav section -->
+    <nav class="flex h-24 w-[1000px] mx-auto justify-between items-center">
+        <img class="w-20 h-20 rounded-full border border-white" src="images/profile_img.jpg" alt="">
         <div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Portifio</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Testimonial</a></li>
-                <li><a href="#">Clients</a></li>
-                <li><a href="#">Blog</a></li>
+            <ul class="flex space-x-5  ">
+                <li><a class="text-white hover:text-blue-200 text-lg" href="#">Home</a></li>
+                <li><a class="text-white hover:text-blue-200 text-lg" href="#">Features</a></li>
+                <li><a class="text-white hover:text-blue-200 text-lg" href="#">Portifio</a></li>
+                <li><a class="text-white hover:text-blue-200 text-lg" href="#">Resume</a></li>
+                <li><a class="text-white hover:text-blue-200 text-lg" href="#">Pricing</a></li>
+                <li><a class="text-white hover:text-blue-200 text-lg" href="#">Testimonial</a></li>
+                <li><a class="text-white hover:text-blue-200 text-lg" href="#">Clients</a></li>
+                <li><a class="text-white hover:text-blue-200 text-lg" href="#">Blog</a></li>
             </ul>
         </div>
-        <button>Hire me</button>
+        <button class=" bg-blue-800 text-white hover:bg-indigo-900 px-8 py-4 rounded-full
+        hover:translate-y-2">Hire me</button>
     </nav>
 
+<!-- hero-section -->
+
+ <div class="bg-slate-900 py-5">
+    <div class="w-[1000px] mx-auto py-4 flex justify-between items-center ">
+<!-- text content hero section -->
+        <div id="contant" class="flex-1">
+            <h1 class="text-4xl  text-white font-bold leading-tight">Hi, I'am Abdiqani A Full-Stack Sofware Developer</h1>
+            <p class=" text-white text-lg my-auto py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt corrupti ipsam recusandae doloribus non vitae pariatur excepturi labore ut mollitia?</p>
+            <div class="flex space-x-4 ">
+                <button class=" bg-blue-800 text-white hover:bg-indigo-900 px-8 py-4 rounded-full
+                hover:translate-y-2 ">Hire me</button>
+
+                <button class=" border border-white  text-white hover:bg-indigo-900 px-8 py-4 rounded-full
+                hover:translate-y-2 ">Our Portifolio</button>
+            </div>
+        </div>
+
+        <!-- hero image -->
+         <div class="flex-1 ">
+            <img class="w-[80rem]" src="images/hero_img.png" alt="">
+         </div>
+        
+    </div>
+ </div>
+
+ <!-- what we do section -->
+  <div id="features" class="mx-auto w-[1000px] py-8 ">
+    <h4 class="subtitle">FEATURES</h4>
+    <h1 class="title">What I do</h1>
+    <div class="cards flex justify-between items-center space-x-10 mt-6">
+        <div class="card1 flex-1 border border-slate-400 rounded-lg p-12">
+            <img class="w-24" src="images/icons/service-1.png" alt="">
+            <h4 class="headingcard">App Development</h4>
+            <p class="text-slate-50 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sapiente natus repudiandae qui harum libero obcaecati vero fuga incidunt, nesciunt, voluptatibus.</p>
+        </div>
+     
+        <div class="card">
+            <img class="w-24" src="images/icons/service-1.png" alt="">
+            <h4 class="headingcard">App Development</h4>
+            <p class="text-slate-50 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sapiente natus repudiandae qui harum libero obcaecati vero fuga incidunt, nesciunt, voluptatibus.</p>
+        </div>
+
+        <div class="card">
+            <img class="w-24" src="images/icons/service-1.png" alt="">
+            <h4 class="headingcard">App Development</h4>
+            <p class="text-slate-50 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sapiente natus repudiandae qui harum libero obcaecati vero fuga incidunt, nesciunt, voluptatibus.</p>
+        </div>
+    </div>
+  </div>
 </body>
 </html>

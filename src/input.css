@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@layer components {
+    .card {
+        @apply flex-1 border border-slate-400 rounded-lg p-12;
+    }
+}
+@layer components {
+    .headingcard {
+        @apply text-white text-2xl font-bold my-3
+    }
+    .subtitle {
+        @apply text-center text-2xl text-blue-700
+    }
+    .title {
+        @apply text-center text-5xl text-white font-bold
+    }
+}
